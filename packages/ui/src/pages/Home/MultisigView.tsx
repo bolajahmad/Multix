@@ -27,7 +27,6 @@ const MultisigView = () => {
       <MultisigList>
         {selectedMultiProxy &&
           selectedMultiProxy.multisigs.map((multisig) => {
-            console.log({ multisig })
             return (
               <MultisigWrapperStyled
                 selectedHasProxy={selectedHasProxy}
